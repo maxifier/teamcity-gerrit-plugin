@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact name="gerrit-integration">
-    <output-path>$USER_HOME$/opt/TeamCity/webapps/ROOT/WEB-INF/plugins</output-path>
+    <output-path>$PROJECT_DIR$/out</output-path>
     <root id="root">
       <element id="archive" name="gerrit-integration.zip">
         <element id="file-copy" path="$PROJECT_DIR$/teamcity-plugin.xml" />
