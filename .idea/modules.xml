@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/teamcity-gerrit.iml" filepath="$PROJECT_DIR$/teamcity-gerrit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teamcity-gerrit-agent/teamcity-gerrit-agent.iml" filepath="$PROJECT_DIR$/teamcity-gerrit-agent/teamcity-gerrit-agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teamcity-gerrit-server/teamcity-gerrit-server.iml" filepath="$PROJECT_DIR$/teamcity-gerrit-server/teamcity-gerrit-server.iml" />
+    </modules>
+  </component>
+</project>
+

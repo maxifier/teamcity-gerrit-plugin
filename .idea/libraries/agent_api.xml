@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="agent-api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/agent-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/common-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/annotations.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/openApi-source.jar!/" />
+    </SOURCES>
+  </library>
+</component>

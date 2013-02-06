@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="gerrit-integration" />
+    </artifacts-to-build>
+  </component>
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="PASSWORD" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="TEST_STATUS_BUILD_TYPE_IDS" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="PROJECT_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
+    <option name="CHANGES_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1656c02c-7342-4652-ae11-1ef34e4c26d4" name="Default" comment="" />
+    <ignored path="teamcity-gerrit.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/../ext/compress-file/CompressFiles/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360139925734" ignored="false" />
+    <file path="/GerritBuildRunner.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360140198656" ignored="false" />
+    <file path="/GerritBuildProcess.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360155305663" ignored="false" />
+    <file path="/GerritRunType.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360150225919" ignored="false" />
+    <file path="/Dummy.txt" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360150779234" ignored="false" />
+    <file path="$PROJECT_DIR$/../git-sheduling-build-trigger/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360150065323" ignored="false" />
+    <file path="/build-server-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360054323350" ignored="false" />
+    <file path="/build-agent-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360152162258" ignored="false" />
+    <file path="$PROJECT_DIR$/../ext/compress-file/CompressFiles/compressFiles-agent/src/compressFiles/agent/ZipBuildProcess.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360057338849" ignored="false" />
+    <file path="$PROJECT_DIR$/../cpo-pro/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360061779109" ignored="false" />
+    <file path="/teamcity-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360062020658" ignored="false" />
+    <file path="/fragment.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360154822160" ignored="false" />
+    <file path="$PROJECT_DIR$/../x-guice/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360136426574" ignored="false" />
+    <file path="$PROJECT_DIR$/../x-guice/guice-lifecycle/src/test/java/com/magenta/guice/lifecycle/LifecycleTest.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360080103973" ignored="false" />
+    <file path="/LifecycleTest.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360080100615" ignored="false" />
+    <file path="$PROJECT_DIR$/../x-guice/guice-lifecycle/src/test/java/com/magenta/guice/lifecycle/TrickyJIT.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360085215858" ignored="false" />
+    <file path="/TrickyJIT.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360084219778" ignored="false" />
+    <file path="/editRunnerRunParameters,jsp" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360148312618" ignored="false" />
+    <file path="/viewRunnerRunParameters.jsp" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360148772249" ignored="false" />
+    <file path="/GerritBuildProcessFactory.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360158409867" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="teamcity-gerrit" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="GerritBuildProcess.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="95" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#GerritBuildProcess#0" expanded="true" />
+                <element signature="method#GerritBuildProcess#0;class#GerritBuildProcess#0" expanded="true" />
+                <element signature="method#afterInitialized#0;class#GerritBuildProcess#0" expanded="true" />
+                <element signature="method#beforeProcessStarted#0;class#GerritBuildProcess#0" expanded="true" />
+                <element signature="method#makeProgramCommandLine#0;class#GerritBuildProcess#0" expanded="true" />
+                <element signature="method#getType#0;class#GerritBuildProcess#0" expanded="true" />
+                <element signature="method#canRun#0;class#GerritBuildProcess#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildServiceAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/agent/runner/BuildServiceAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="58" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#3515#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="method#getBuildParameters#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="method#getConfigParameters#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="method#getSystemProperties#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="method#getEnvironmentVariables#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="method#getRunnerParameters#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="method#getCheckoutDirectory#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="method#getWorkingDirectory#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="method#createProgramCommandline#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="docComment;method#getToolPath#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="method#getToolPath#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="docComment;method#getBuildTempDirectory#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="method#getBuildTempDirectory#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="docComment;method#getAgentTempDirectory#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="method#getAgentTempDirectory#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="docComment;method#getAgentConfiguration#0;class#BuildServiceAdapter#0" expanded="false" />
+                <element signature="method#getAgentConfiguration#0;class#BuildServiceAdapter#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandLineBuildService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/agent/runner/CommandLineBuildService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="22" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#8212#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="docComment;method#initialize#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="method#initialize#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="docComment;method#afterInitialized#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="docComment;method#beforeProcessStarted#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="docComment;method#afterProcessFinished#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="docComment;method#afterProcessSuccessfullyFinished#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="docComment;method#makeProgramCommandLine#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="docComment;method#getListeners#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="method#getListeners#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="e#5376#5393#0" expanded="false" />
+                <element signature="docComment;method#interrupt#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="method#interrupt#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="docComment;method#getRunResult#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="method#getRunResult#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="method#logExitCodeBuildProblem#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="method#logBuildProblem#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="docComment;method#isCommandLineLoggingEnabled#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="method#isCommandLineLoggingEnabled#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="docComment;method#getBuild#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="docComment;method#getRunnerContext#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="docComment;method#getLogger#0;class#CommandLineBuildService#0" expanded="false" />
+                <element signature="method#getLogger#0;class#CommandLineBuildService#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GerritBuildProcessFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcessFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#994#1034#0" expanded="true" />
+                <element signature="method#getType#0;class#GerritBuildProcessFactory#0" expanded="true" />
+                <element signature="method#canRun#0;class#GerritBuildProcessFactory#0" expanded="true" />
+                <element signature="method#createService#0;class#GerritBuildProcessFactory#0" expanded="true" />
+                <element signature="method#getBuildRunnerInfo#0;class#GerritBuildProcessFactory#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventDispatcher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/util/EventDispatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="114" column="0" selection-start="3865" selection-end="3865" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#addListener#0;class#EventDispatcher#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenericCommandLineRunner.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/opt/TeamCity/buildAgent/lib/agent.jar!/jetbrains/buildServer/agent/runner2/GenericCommandLineRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="52" selection-start="786" selection-end="786" vertical-scroll-proportion="-7.2">
+              <folding>
+                <element signature="method#createBuildProcess#0;class#GenericCommandLineRunner#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallRunnerService.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/opt/TeamCity/buildAgent/lib/agent.jar!/jetbrains/buildServer/agent/impl/runner/CallRunnerService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="52" selection-start="607" selection-end="607" vertical-scroll-proportion="-7.2">
+              <folding>
+                <element signature="method#createBuildProcess#0;class#CallRunnerService#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GerritRunType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teamcity-gerrit-server/src/com/maxifier/teamcity/gerrit/GerritRunType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="45" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#GerritRunType#0" expanded="true" />
+                <element signature="method#GerritRunType#0;class#GerritRunType#0" expanded="true" />
+                <element signature="method#getType#0;class#GerritRunType#0" expanded="true" />
+                <element signature="method#getDisplayName#0;class#GerritRunType#0" expanded="true" />
+                <element signature="method#getDescription#0;class#GerritRunType#0" expanded="true" />
+                <element signature="method#getRunnerPropertiesProcessor#0;class#GerritRunType#0" expanded="true" />
+                <element signature="e#1311#2040#0" expanded="true" />
+                <element signature="e#1526#1543#0" expanded="true" />
+                <element signature="e#2029#2030#0" expanded="true" />
+                <element signature="method#getEditRunnerParamsJspFilePath#0;class#GerritRunType#0" expanded="true" />
+                <element signature="method#getViewRunnerParamsJspFilePath#0;class#GerritRunType#0" expanded="true" />
+                <element signature="e#2558#2574#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editGerritRunnerParameters.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teamcity-gerrit-server/src/buildServerResources/editGerritRunnerParameters.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="44" selection-start="912" selection-end="922" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/agent/GerritBuildRunner.java" />
+        <option value="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/agent/GerritBuildProcess.java" />
+        <option value="$PROJECT_DIR$/teamcity-gerrit-server/src/META-INF/build-server-plugin.xml" />
+        <option value="$PROJECT_DIR$/teamcity-plugin.xml" />
+        <option value="$PROJECT_DIR$/teamcity-gerrit-server/src/buildServerResources/editRunnerRunParameters,jsp" />
+        <option value="$PROJECT_DIR$/teamcity-gerrit-server/src/buildServerResources/viewRunnerRunParameters.jsp" />
+        <option value="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildRunner.java" />
+        <option value="$PROJECT_DIR$/teamcity-gerrit-server/src/com/maxifier/teamcity/gerrit/GerritRunType.java" />
+        <option value="$PROJECT_DIR$/teamcity-gerrit-agent/src/META-INF/build-agent-plugin.xml" />
+        <option value="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java" />
+        <option value="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcessFactory.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="width" value="1678" />
+    <option name="height" value="1014" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamcity-gerrit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamcity-gerrit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamcity-gerrit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/opt/TeamCity/buildAgent/lib/agent.jar!/" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+  </component>
+  <component name="RunManager" selected="Remote.agent">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="agent" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5006" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5006" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Remote.agent" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1656c02c-7342-4652-ae11-1ef34e4c26d4" name="Default" comment="" />
+      <created>1360053138098</created>
+      <updated>1360053138098</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="0" width="1678" height="1014" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34948096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19301471" sideWeight="0.650519" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="atlassian-ide-plugin-workspace">
+    <option name="bambooConfiguration">
+      <BambooWorkspaceConfiguration>
+        <option name="view">
+          <BambooViewConfigurationBean />
+        </option>
+      </BambooWorkspaceConfiguration>
+    </option>
+    <option name="defaultCredentials">
+      <UserCfgBean />
+    </option>
+  </component>
+  <component name="atlassian-ide-plugin-workspace-issues">
+    <option name="view">
+      <JiraViewConfigurationBean>
+        <option name="viewFilterId" value="" />
+      </JiraViewConfigurationBean>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/TeamCityExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#753#0" expanded="false" />
+            <element signature="docComment;class#TeamCityExtension#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/agent/AgentExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="42" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#814#0" expanded="false" />
+            <element signature="docComment;class#AgentExtension#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/agent/runner/CommandLineBuildServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="59" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#1173#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#CommandLineBuildServiceFactory#0" expanded="false" />
+            <element signature="docComment;method#createService#0;class#CommandLineBuildServiceFactory#0" expanded="false" />
+            <element signature="docComment;method#getBuildRunnerInfo#0;class#CommandLineBuildServiceFactory#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/META-INF/build-agent-plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="72" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamcity-gerrit-server/src/com/maxifier/teamcity/gerrit/GerritRunType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="45" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#GerritRunType#0" expanded="true" />
+            <element signature="method#GerritRunType#0;class#GerritRunType#0" expanded="true" />
+            <element signature="method#getType#0;class#GerritRunType#0" expanded="true" />
+            <element signature="method#getDisplayName#0;class#GerritRunType#0" expanded="true" />
+            <element signature="method#getDescription#0;class#GerritRunType#0" expanded="true" />
+            <element signature="method#getRunnerPropertiesProcessor#0;class#GerritRunType#0" expanded="true" />
+            <element signature="e#1311#2040#0" expanded="true" />
+            <element signature="e#1526#1543#0" expanded="true" />
+            <element signature="e#2029#2030#0" expanded="true" />
+            <element signature="method#getEditRunnerParamsJspFilePath#0;class#GerritRunType#0" expanded="true" />
+            <element signature="method#getViewRunnerParamsJspFilePath#0;class#GerritRunType#0" expanded="true" />
+            <element signature="e#2558#2574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/opt/TeamCity/buildAgent/lib/agent.jar!/jetbrains/buildServer/agent/runner2/SingleCommandLineBuildSessionFactoryAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="71" selection-start="737" selection-end="737" vertical-scroll-proportion="-7.2">
+          <folding>
+            <element signature="method#createSession#0;class#SingleCommandLineBuildSessionFactoryAdapter#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/opt/TeamCity/buildAgent/lib/agent.jar!/jetbrains/buildServer/agent/runner2/GenericCommandLineRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="52" selection-start="786" selection-end="786" vertical-scroll-proportion="-7.2">
+          <folding>
+            <element signature="method#createBuildProcess#0;class#GenericCommandLineRunner#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/opt/TeamCity/buildAgent/lib/agent.jar!/jetbrains/buildServer/agent/impl/runner/CallRunnerService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="52" selection-start="607" selection-end="607" vertical-scroll-proportion="-7.2">
+          <folding>
+            <element signature="method#createBuildProcess#0;class#CallRunnerService#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/util/EventDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="0" selection-start="3865" selection-end="3865" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#addListener#0;class#EventDispatcher#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamcity-gerrit-server/src/buildServerResources/editGerritRunnerParameters.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="44" selection-start="912" selection-end="922" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/agent/runner/CommandLineBuildService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="22" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#8212#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="docComment;method#initialize#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="method#initialize#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="docComment;method#afterInitialized#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="docComment;method#beforeProcessStarted#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="docComment;method#afterProcessFinished#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="docComment;method#afterProcessSuccessfullyFinished#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="docComment;method#makeProgramCommandLine#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="docComment;method#getListeners#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="method#getListeners#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="e#5376#5393#0" expanded="false" />
+            <element signature="docComment;method#interrupt#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="method#interrupt#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="docComment;method#getRunResult#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="method#getRunResult#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="method#logExitCodeBuildProblem#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="method#logBuildProblem#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="docComment;method#isCommandLineLoggingEnabled#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="method#isCommandLineLoggingEnabled#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="docComment;method#getBuild#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="docComment;method#getRunnerContext#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="docComment;method#getLogger#0;class#CommandLineBuildService#0" expanded="false" />
+            <element signature="method#getLogger#0;class#CommandLineBuildService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/agent/runner/BuildServiceAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="58" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#3515#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="method#getBuildParameters#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="method#getConfigParameters#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="method#getSystemProperties#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="method#getEnvironmentVariables#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="method#getRunnerParameters#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="method#getCheckoutDirectory#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="method#getWorkingDirectory#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="method#createProgramCommandline#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="docComment;method#getToolPath#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="method#getToolPath#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="docComment;method#getBuildTempDirectory#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="method#getBuildTempDirectory#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="docComment;method#getAgentTempDirectory#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="method#getAgentTempDirectory#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="docComment;method#getAgentConfiguration#0;class#BuildServiceAdapter#0" expanded="false" />
+            <element signature="method#getAgentConfiguration#0;class#BuildServiceAdapter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/opt/TeamCity/buildAgent/lib/agent.jar!/jetbrains/buildServer/agent/runner2/SingleCommandLineBuildSessionAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="16" selection-start="1648" selection-end="1648" vertical-scroll-proportion="-17.4">
+          <folding>
+            <element signature="method#beforeProcessStarted#0;class#SingleCommandLineBuildSessionAdapter#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcessFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#994#1034#0" expanded="true" />
+            <element signature="method#getType#0;class#GerritBuildProcessFactory#0" expanded="true" />
+            <element signature="method#canRun#0;class#GerritBuildProcessFactory#0" expanded="true" />
+            <element signature="method#createService#0;class#GerritBuildProcessFactory#0" expanded="true" />
+            <element signature="method#getBuildRunnerInfo#0;class#GerritBuildProcessFactory#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="95" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#GerritBuildProcess#0" expanded="true" />
+            <element signature="method#GerritBuildProcess#0;class#GerritBuildProcess#0" expanded="true" />
+            <element signature="method#afterInitialized#0;class#GerritBuildProcess#0" expanded="true" />
+            <element signature="method#beforeProcessStarted#0;class#GerritBuildProcess#0" expanded="true" />
+            <element signature="method#makeProgramCommandLine#0;class#GerritBuildProcess#0" expanded="true" />
+            <element signature="method#getType#0;class#GerritBuildProcess#0" expanded="true" />
+            <element signature="method#canRun#0;class#GerritBuildProcess#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>gerrit-integration</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>agent-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6_u32</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>teamcity-gerrit-server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>agent</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

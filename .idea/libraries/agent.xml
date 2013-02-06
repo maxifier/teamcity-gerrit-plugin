@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="agent">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/opt/TeamCity/buildAgent/lib/agent.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

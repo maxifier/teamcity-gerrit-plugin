@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact name="gerrit-integration">
+    <output-path>$USER_HOME$/opt/TeamCity/webapps/ROOT/WEB-INF/plugins</output-path>
+    <root id="root">
+      <element id="archive" name="gerrit-integration.zip">
+        <element id="file-copy" path="$PROJECT_DIR$/teamcity-plugin.xml" />
+        <element id="directory" name="agent">
+          <element id="archive" name="gerrit-integration.zip">
+            <element id="directory" name="gerrit-integration">
+              <element id="directory" name="lib">
+                <element id="archive" name="gerrit-integration-agent.jar">
+                  <element id="module-output" name="teamcity-gerrit-agent" />
+                </element>
+              </element>
+            </element>
+          </element>
+        </element>
+        <element id="directory" name="server">
+          <element id="archive" name="gerrit-integration-server.jar">
+            <element id="module-output" name="teamcity-gerrit-server" />
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
