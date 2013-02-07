@@ -3,6 +3,11 @@ teamcity-gerrit-plugin
 
 This plugin adds the additional build runner with possibility to Label Verify changes in Gerrit.
 
+Compatibility
+=============
+
+Plugin is compatible with TeamCity 7.1 at least. Feel free to check other verwions.
+
 Installation
 ============
 Drop gerrit-integration.zip to .BuildServer/plugins folder. Restart TeamCity server.
