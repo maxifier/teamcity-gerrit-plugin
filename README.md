@@ -6,7 +6,8 @@ This plugin adds the additional build runner with possibility to Label Verify ch
 Compatibility
 =============
 
-Plugin is compatible with TeamCity 7.1 at least. Feel free to check other verwions.
+Plugin is compatible with TeamCity 7.1 at least. Feel free to check other versions.
+Due ssh command usage, will work only on Linux Agents.
 
 Installation
 ============
