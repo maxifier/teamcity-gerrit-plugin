@@ -4,7 +4,7 @@
     <info>
         <name>gerrit-integration</name>
         <display-name>Gerrit Integration</display-name>
-        <version>0.1</version>
+        <version>0.2</version>
         <description>Verify changes for Gerrit</description>
     </info>
     <deployment use-separate-classloader="true"/>

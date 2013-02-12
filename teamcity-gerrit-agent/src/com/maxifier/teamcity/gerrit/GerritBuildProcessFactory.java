@@ -27,7 +27,15 @@ public class GerritBuildProcessFactory implements CommandLineBuildServiceFactory
         eventDispatcher.addListener(new AgentLifeCycleAdapter() {
             @Override
             public void runnerFinished(@NotNull BuildRunnerContext runner, @NotNull BuildFinishedStatus status) {
-                statuses.put(runner.getBuild(), status);
+                BuildFinishedStatus previousStepStatus = statuses.get(runner.getBuild());
+                //save build step finished status if it's no step finished before or previous step finished with success.
+                if (previousStepStatus == null || previousStepStatus.equals(BuildFinishedStatus.FINISHED_SUCCESS)) {
+                    statuses.put(runner.getBuild(), status);
+                } else {
+                    //if previous step finished without success, whole build failed.
+                    //keep failed status for build in the map.
+                }
+
             }
         });
     }
