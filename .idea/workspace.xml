@@ -29,10 +29,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1656c02c-7342-4652-ae11-1ef34e4c26d4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java" afterPath="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1656c02c-7342-4652-ae11-1ef34e4c26d4" name="Default" comment="" />
     <ignored path="teamcity-gerrit.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../ext/compress-file/CompressFiles/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360139925734" ignored="false" />
@@ -57,7 +54,8 @@
     <file path="/GerritBuildProcessFactory.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360655038987" ignored="false" />
     <file path="/README.md" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360655275353" ignored="false" />
     <file path="/.gitignore" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360159634305" ignored="false" />
-    <file path="$PROJECT_DIR$/../maxifier-messaging/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360656044632" ignored="false" />
+    <file path="$PROJECT_DIR$/../maxifier-messaging/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360657213054" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360657215874" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +117,7 @@
       <file leaf-file-name="GerritBuildProcess.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="92" selection-start="3471" selection-end="3471" vertical-scroll-proportion="0.48842874">
+            <state line="78" column="82" selection-start="3149" selection-end="3149" vertical-scroll-proportion="0.34310135">
               <folding />
             </state>
           </provider>
@@ -506,6 +504,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -514,7 +513,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -714,7 +712,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="92" selection-start="3471" selection-end="3471" vertical-scroll-proportion="0.48842874">
+        <state line="78" column="82" selection-start="3149" selection-end="3149" vertical-scroll-proportion="0.34310135">
           <folding />
         </state>
       </provider>
