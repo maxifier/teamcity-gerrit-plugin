@@ -83,7 +83,7 @@ public class GerritBuildProcess extends BuildServiceAdapter implements AgentBuil
 
 
 
-        String gerritCommand = String.format("gerrit verify --verified=%s" +
+        String gerritCommand = String.format("gerrit review --verified=%s" +
                 " --message=%s/viewLog.html?buildId=%s&tab=buildResultsDiv&buildTypeId=%s %s",
                 verified, teamCityUrl, buildId, buildTypeId, patchSet);
         getLogger().progressMessage("Gerrit command: " + gerritCommand);

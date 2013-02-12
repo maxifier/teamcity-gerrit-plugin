@@ -29,14 +29,17 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1656c02c-7342-4652-ae11-1ef34e4c26d4" name="Default" comment="" />
+    <list default="true" id="1656c02c-7342-4652-ae11-1ef34e4c26d4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java" afterPath="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="teamcity-gerrit.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../ext/compress-file/CompressFiles/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360139925734" ignored="false" />
     <file path="/GerritBuildRunner.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360140198656" ignored="false" />
     <file path="/GerritBuildProcess.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360155305663" ignored="false" />
     <file path="/GerritRunType.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360150225919" ignored="false" />
-    <file path="/Dummy.txt" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360657150949" ignored="false" />
+    <file path="/Dummy.txt" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360659430740" ignored="false" />
     <file path="$PROJECT_DIR$/../git-sheduling-build-trigger/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360150065323" ignored="false" />
     <file path="/build-server-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360054323350" ignored="false" />
     <file path="/build-agent-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360152162258" ignored="false" />
@@ -54,8 +57,10 @@
     <file path="/GerritBuildProcessFactory.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360655038987" ignored="false" />
     <file path="/README.md" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360655275353" ignored="false" />
     <file path="/.gitignore" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360159634305" ignored="false" />
-    <file path="$PROJECT_DIR$/../maxifier-messaging/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360657213054" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360657215874" ignored="false" />
+    <file path="$PROJECT_DIR$/../maxifier-messaging/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360659452606" ignored="false" />
+    <file path="$PROJECT_DIR$/../maxifier-messaging/messaging-it/src/it/java/com/maxifier/messaging/ITRabbitPRC.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360658861339" ignored="false" />
+    <file path="$PROJECT_DIR$/../maxifier-messaging/messaging-it/src/it/java/com/maxifier/messaging/events/ITRabbitEvents.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360658861339" ignored="false" />
+    <file path="$PROJECT_DIR$/../maxifier-messaging/messaging-core/src/main/java/com/maxifier/messaging/events/RabbitEvents.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360658861339" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +122,7 @@
       <file leaf-file-name="GerritBuildProcess.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="82" selection-start="3149" selection-end="3149" vertical-scroll-proportion="0.34310135">
+            <state line="80" column="51" selection-start="3223" selection-end="3223" vertical-scroll-proportion="0.4494382">
               <folding />
             </state>
           </provider>
@@ -188,6 +193,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -243,6 +249,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,7 +336,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,8 +355,8 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Remote.agent">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -365,6 +371,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -392,19 +411,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -494,7 +500,7 @@
     <frame x="1" y="0" width="1678" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -604,28 +610,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/META-INF/build-agent-plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="72" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teamcity-gerrit-server/src/com/maxifier/teamcity/gerrit/GerritRunType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="45" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#GerritRunType#0" expanded="true" />
-            <element signature="method#GerritRunType#0;class#GerritRunType#0" expanded="true" />
-            <element signature="method#getType#0;class#GerritRunType#0" expanded="true" />
-            <element signature="method#getDisplayName#0;class#GerritRunType#0" expanded="true" />
-            <element signature="method#getDescription#0;class#GerritRunType#0" expanded="true" />
-            <element signature="method#getRunnerPropertiesProcessor#0;class#GerritRunType#0" expanded="true" />
-            <element signature="e#1311#2040#0" expanded="true" />
-            <element signature="e#1526#1543#0" expanded="true" />
-            <element signature="e#2029#2030#0" expanded="true" />
-            <element signature="method#getEditRunnerParamsJspFilePath#0;class#GerritRunType#0" expanded="true" />
-            <element signature="method#getViewRunnerParamsJspFilePath#0;class#GerritRunType#0" expanded="true" />
-            <element signature="e#2558#2574#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#GerritRunType#0" expanded="false" />
+            <element signature="method#GerritRunType#0;class#GerritRunType#0" expanded="false" />
+            <element signature="method#getType#0;class#GerritRunType#0" expanded="false" />
+            <element signature="method#getDisplayName#0;class#GerritRunType#0" expanded="false" />
+            <element signature="method#getDescription#0;class#GerritRunType#0" expanded="false" />
+            <element signature="method#getRunnerPropertiesProcessor#0;class#GerritRunType#0" expanded="false" />
+            <element signature="e#1311#2040#0" expanded="false" />
+            <element signature="e#1526#1543#0" expanded="false" />
+            <element signature="e#2029#2030#0" expanded="false" />
+            <element signature="method#getEditRunnerParamsJspFilePath#0;class#GerritRunType#0" expanded="false" />
+            <element signature="method#getViewRunnerParamsJspFilePath#0;class#GerritRunType#0" expanded="false" />
+            <element signature="e#2558#2574#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -656,30 +660,22 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/agent/runner/CommandLineBuildService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="22" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.14652015">
-          <folding />
-        </state>
+        <state line="46" column="22" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.14652015" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/agent/runner/BuildServiceAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="58" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.12087912">
-          <folding />
-        </state>
+        <state line="32" column="58" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.12087912" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="15" selection-start="26" selection-end="26" vertical-scroll-proportion="0.01831502">
-          <folding />
-        </state>
+        <state line="1" column="15" selection-start="26" selection-end="26" vertical-scroll-proportion="0.01831502" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/opt/TeamCity/buildAgent/lib/agent.jar!/jetbrains/buildServer/agent/runner2/GenericCommandLineRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="52" selection-start="786" selection-end="786" vertical-scroll-proportion="0.2496799">
-          <folding />
-        </state>
+        <state line="13" column="52" selection-start="786" selection-end="786" vertical-scroll-proportion="0.2496799" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/util/EventDispatcher.java">
@@ -712,7 +708,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="82" selection-start="3149" selection-end="3149" vertical-scroll-proportion="0.34310135">
+        <state line="80" column="51" selection-start="3223" selection-end="3223" vertical-scroll-proportion="0.4494382">
           <folding />
         </state>
       </provider>
