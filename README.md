@@ -15,6 +15,7 @@ Drop gerrit-integration.zip to .BuildServer/plugins folder. Restart TeamCity ser
 Due to transfer of new runner to agents, it can take some to time.
 
 gerrit-integration.zip can be found in out folder.
+https://github.com/maxifier/teamcity-gerrit-plugin/blob/master/out/gerrit-integration.zip
 
 
 Usage
@@ -23,9 +24,9 @@ Usage
 1. Create build configuration to verify changes in Gerrit. Add VCS root for this configuration.
    It's possible to ise only one VCS root for this runner.
 
-2. Add build step necessary to verify change. Maven for example.
+2. Add build steps necessary to verify change. Maven for example. Label Verify '+1' only if all build steps success.
 
-3. Add Gerrit Verification build step. This build step should be executed even if previous step is failed.
+3. Add Gerrit Verification build step. This build step should be executed even if previous steps is failed.
    Set up gerrit hostname and port are necessary for ssh connection to gerrit and execute approval command.
    Include username in hostname like harry.potter@gerrit.hogwarts.com. Be sure private key of used user is placed
    on build agent.

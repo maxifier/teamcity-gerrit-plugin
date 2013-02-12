@@ -30,10 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1656c02c-7342-4652-ae11-1ef34e4c26d4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java" afterPath="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcessFactory.java" afterPath="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcessFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teamcity-plugin.xml" afterPath="$PROJECT_DIR$/teamcity-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="teamcity-gerrit.iws" />
@@ -58,9 +55,9 @@
     <file path="/editRunnerRunParameters,jsp" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360148312618" ignored="false" />
     <file path="/viewRunnerRunParameters.jsp" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360148772249" ignored="false" />
     <file path="/GerritBuildProcessFactory.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360655038987" ignored="false" />
-    <file path="/README.md" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360161232374" ignored="false" />
+    <file path="/README.md" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360655275353" ignored="false" />
     <file path="/.gitignore" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360159634305" ignored="false" />
-    <file path="$PROJECT_DIR$/../maxifier-messaging/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360655076195" ignored="false" />
+    <file path="$PROJECT_DIR$/../maxifier-messaging/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360655645461" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,10 +116,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GerritBuildProcess.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GerritBuildProcess.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="0" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.74358976">
+            <state line="85" column="110" selection-start="3380" selection-end="3380" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="method#GerritBuildProcess#0;class#GerritBuildProcess#0" expanded="true" />
                 <element signature="method#afterInitialized#0;class#GerritBuildProcess#0" expanded="true" />
@@ -131,10 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="92" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0">
+            <state line="39" column="73" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.71428573">
               <folding />
             </state>
           </provider>
@@ -218,11 +215,11 @@
         <option value="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildRunner.java" />
         <option value="$PROJECT_DIR$/teamcity-gerrit-server/src/com/maxifier/teamcity/gerrit/GerritRunType.java" />
         <option value="$PROJECT_DIR$/teamcity-gerrit-agent/src/META-INF/build-agent-plugin.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java" />
         <option value="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcessFactory.java" />
         <option value="$PROJECT_DIR$/teamcity-plugin.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -507,7 +504,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1678" height="1014" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -690,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="92" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/opt/TeamCity/buildAgent/lib/agent.jar!/jetbrains/buildServer/agent/runner2/GenericCommandLineRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="52" selection-start="786" selection-end="786" vertical-scroll-proportion="0.2496799">
@@ -734,11 +724,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.74358976">
+        <state line="85" column="110" selection-start="3380" selection-end="3380" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#GerritBuildProcess#0;class#GerritBuildProcess#0" expanded="true" />
             <element signature="method#afterInitialized#0;class#GerritBuildProcess#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="73" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.71428573">
+          <folding />
         </state>
       </provider>
     </entry>
