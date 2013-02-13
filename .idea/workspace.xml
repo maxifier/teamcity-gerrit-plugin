@@ -30,7 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1656c02c-7342-4652-ae11-1ef34e4c26d4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java" afterPath="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="teamcity-gerrit.iws" />
@@ -39,14 +39,14 @@
     <file path="/GerritBuildRunner.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360140198656" ignored="false" />
     <file path="/GerritBuildProcess.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360155305663" ignored="false" />
     <file path="/GerritRunType.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360150225919" ignored="false" />
-    <file path="/Dummy.txt" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360659430740" ignored="false" />
+    <file path="/Dummy.txt" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360742403333" ignored="false" />
     <file path="$PROJECT_DIR$/../git-sheduling-build-trigger/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360150065323" ignored="false" />
     <file path="/build-server-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360054323350" ignored="false" />
     <file path="/build-agent-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360152162258" ignored="false" />
     <file path="$PROJECT_DIR$/../ext/compress-file/CompressFiles/compressFiles-agent/src/compressFiles/agent/ZipBuildProcess.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360057338849" ignored="false" />
     <file path="$PROJECT_DIR$/../cpo-pro/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360061779109" ignored="false" />
     <file path="/teamcity-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360655090393" ignored="false" />
-    <file path="/fragment.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360154822160" ignored="false" />
+    <file path="/fragment.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360659569176" ignored="false" />
     <file path="$PROJECT_DIR$/../x-guice/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360136426574" ignored="false" />
     <file path="$PROJECT_DIR$/../x-guice/guice-lifecycle/src/test/java/com/magenta/guice/lifecycle/LifecycleTest.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360080103973" ignored="false" />
     <file path="/LifecycleTest.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360080100615" ignored="false" />
@@ -55,9 +55,9 @@
     <file path="/editRunnerRunParameters,jsp" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360148312618" ignored="false" />
     <file path="/viewRunnerRunParameters.jsp" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360148772249" ignored="false" />
     <file path="/GerritBuildProcessFactory.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360655038987" ignored="false" />
-    <file path="/README.md" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360655275353" ignored="false" />
+    <file path="/README.md" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360742760020" ignored="false" />
     <file path="/.gitignore" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360159634305" ignored="false" />
-    <file path="$PROJECT_DIR$/../maxifier-messaging/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360659452606" ignored="false" />
+    <file path="$PROJECT_DIR$/../maxifier-messaging/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360742605822" ignored="false" />
     <file path="$PROJECT_DIR$/../maxifier-messaging/messaging-it/src/it/java/com/maxifier/messaging/ITRabbitPRC.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360658861339" ignored="false" />
     <file path="$PROJECT_DIR$/../maxifier-messaging/messaging-it/src/it/java/com/maxifier/messaging/events/ITRabbitEvents.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360658861339" ignored="false" />
     <file path="$PROJECT_DIR$/../maxifier-messaging/messaging-core/src/main/java/com/maxifier/messaging/events/RabbitEvents.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360658861339" ignored="false" />
@@ -119,19 +119,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GerritBuildProcess.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GerritBuildProcess.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="51" selection-start="3223" selection-end="3223" vertical-scroll-proportion="0.4494382">
+            <state line="88" column="60" selection-start="3606" selection-end="3606" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="544" selection-end="633" vertical-scroll-proportion="0.0">
+            <state line="44" column="77" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.7206704">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="403" column="0" selection-start="22729" selection-end="22729" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -212,15 +221,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcessFactory.java" />
         <option value="$PROJECT_DIR$/teamcity-plugin.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="width" value="1678" />
-    <option name="height" value="1014" />
+    <option name="x" value="-1" />
+    <option name="width" value="1682" />
+    <option name="height" value="1016" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -248,8 +257,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -336,6 +343,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,8 +364,8 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Remote.agent">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -371,19 +380,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -411,6 +407,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -497,10 +506,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1678" height="1014" extended-state="0" />
+    <frame x="-1" y="0" width="1682" height="1016" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32873562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -510,15 +519,15 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22760735" sideWeight="0.6709007" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22705019" sideWeight="0.67126435" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -603,11 +612,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/openApi-source.jar!/jetbrains/buildServer/agent/runner/CommandLineBuildServiceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="59" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/META-INF/build-agent-plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="72" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" />
@@ -615,23 +619,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/teamcity-gerrit-server/src/com/maxifier/teamcity/gerrit/GerritRunType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="45" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#GerritRunType#0" expanded="false" />
-            <element signature="method#GerritRunType#0;class#GerritRunType#0" expanded="false" />
-            <element signature="method#getType#0;class#GerritRunType#0" expanded="false" />
-            <element signature="method#getDisplayName#0;class#GerritRunType#0" expanded="false" />
-            <element signature="method#getDescription#0;class#GerritRunType#0" expanded="false" />
-            <element signature="method#getRunnerPropertiesProcessor#0;class#GerritRunType#0" expanded="false" />
-            <element signature="e#1311#2040#0" expanded="false" />
-            <element signature="e#1526#1543#0" expanded="false" />
-            <element signature="e#2029#2030#0" expanded="false" />
-            <element signature="method#getEditRunnerParamsJspFilePath#0;class#GerritRunType#0" expanded="false" />
-            <element signature="method#getViewRunnerParamsJspFilePath#0;class#GerritRunType#0" expanded="false" />
-            <element signature="e#2558#2574#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="80" column="45" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/opt/TeamCity/buildAgent/lib/agent.jar!/jetbrains/buildServer/agent/runner2/SingleCommandLineBuildSessionFactoryAdapter.class">
@@ -699,16 +687,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="544" selection-end="633" vertical-scroll-proportion="0.0">
+        <state line="88" column="60" selection-start="3606" selection-end="3606" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teamcity-gerrit-agent/src/com/maxifier/teamcity/gerrit/GerritBuildProcess.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="51" selection-start="3223" selection-end="3223" vertical-scroll-proportion="0.4494382">
+        <state line="403" column="0" selection-start="22729" selection-end="22729" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="77" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.7206704">
           <folding />
         </state>
       </provider>
