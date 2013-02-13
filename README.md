@@ -22,7 +22,7 @@ Usage
 =====
 
 1. Create build configuration to verify changes in Gerrit. Add VCS root for this configuration.
-   It's possible to ise only one VCS root for this runner.
+   It's possible to use only one VCS root for this runner.
 
 2. Add build steps are necessary to verify changes. Maven for example. Plugin would Label Verify '+1'
    only if all build steps succeed.

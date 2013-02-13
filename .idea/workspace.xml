@@ -55,9 +55,9 @@
     <file path="/editRunnerRunParameters,jsp" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360148312618" ignored="false" />
     <file path="/viewRunnerRunParameters.jsp" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360148772249" ignored="false" />
     <file path="/GerritBuildProcessFactory.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360655038987" ignored="false" />
-    <file path="/README.md" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360742760020" ignored="false" />
+    <file path="/README.md" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360743393984" ignored="false" />
     <file path="/.gitignore" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360159634305" ignored="false" />
-    <file path="$PROJECT_DIR$/../maxifier-messaging/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360742605822" ignored="false" />
+    <file path="$PROJECT_DIR$/../maxifier-messaging/atlassian-ide-plugin.xml" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360743391891" ignored="false" />
     <file path="$PROJECT_DIR$/../maxifier-messaging/messaging-it/src/it/java/com/maxifier/messaging/ITRabbitPRC.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360658861339" ignored="false" />
     <file path="$PROJECT_DIR$/../maxifier-messaging/messaging-it/src/it/java/com/maxifier/messaging/events/ITRabbitEvents.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360658861339" ignored="false" />
     <file path="$PROJECT_DIR$/../maxifier-messaging/messaging-core/src/main/java/com/maxifier/messaging/events/RabbitEvents.java" changelist="1656c02c-7342-4652-ae11-1ef34e4c26d4" time="1360658861339" ignored="false" />
@@ -131,7 +131,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="77" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.7206704">
+            <state line="24" column="21" selection-start="779" selection-end="779" vertical-scroll-proportion="0.16201118">
               <folding />
             </state>
           </provider>
@@ -140,7 +140,7 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="403" column="0" selection-start="22729" selection-end="22729" vertical-scroll-proportion="0.0">
+            <state line="411" column="0" selection-start="23070" selection-end="23070" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -696,14 +696,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="403" column="0" selection-start="22729" selection-end="22729" vertical-scroll-proportion="0.0">
+        <state line="411" column="0" selection-start="23070" selection-end="23070" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="77" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.7206704">
+        <state line="24" column="21" selection-start="779" selection-end="779" vertical-scroll-proportion="0.16201118">
           <folding />
         </state>
       </provider>
